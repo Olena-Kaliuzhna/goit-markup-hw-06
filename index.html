@@ -454,11 +454,14 @@
             <label for="coment" class="forms-label">Комментарий</label>
           </div>         
             
-          <label class="form-agreement">
-            <input class="checkbox visually-hidden" type="checkbox" name="agreement" value="agree" />
-            <span class="form-icon-check"></span>              
-            <span class="agreements-label">Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></span>
-          </label>    
+          <div class="form-agreement">
+            <input class="checkbox visually-hidden" type="checkbox" name="agreement" value="agree" id="checkbox-agree" />
+            <label for="checkbox-agree" class="agreements-label">
+              Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a>    
+            </label> 
+          </div>
+            
+          
 
           <button class="button" type="submit">Отправить</button>          
 
